@@ -1,0 +1,45 @@
+body
+{
+    background-image: url(../images/grid.png);
+}
+
+.items
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.items li
+{
+    text-align: left;
+    font-size: 11px !important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+.items li a, .items li a:visited, .items li a:active
+{
+    color: #443901;
+    text-decoration: none;
+}
+.items li a:hover
+{
+    /*text-decoration: underline;*/
+    color: #7C6300;
+    -webkit-text-shadow: 1px 1px 2px #ffffff; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-text-shadow: 1px 1px 2px #ffffff; /* FF3.5 - 3.6 */
+    text-shadow: 1px 1px 2px #ffffff; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+}
+
+#inline-content
+{
+    height: 100px;
+    margin-top: 100px;
+    margin: 0 auto;
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}

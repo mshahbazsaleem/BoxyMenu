@@ -1,0 +1,71 @@
+.btn-pin
+{
+    position: absolute;
+    top: 10px;
+    left: 87%;
+    display: none;
+    width: 20px;
+    height: 20px;
+    background: url(../images/pin.png) no-repeat;
+}
+.pinned
+{
+    background: url(../images/pin-hover.png) no-repeat;
+}
+.boxy-piece
+{
+    background-color: #FFD600;
+}
+.boxy-menu
+{
+    /*width: 1024px;*/
+    height: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 18px;
+    margin-top: 24px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.boxy-menu.hidden > li
+{
+    border: none;
+    display: none !important;
+}
+
+.boxy-menu > li
+{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 150px;
+    display: inline;
+    float: left;
+    font-family: Arial;
+    margin: 25px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.boxy-menu > li.menuitem
+{
+    background-color: #FFD600;
+}
+.boxy-menu-item-top
+{
+    color: #443901;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150px;
+    text-align: center;
+    -webkit-text-shadow: 1px 1px 2px #ffffff; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-text-shadow: 1px 1px 2px #ffffff; /* FF3.5 - 3.6 */
+    text-shadow: 1px 1px 2px #ffffff; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+    display: none;
+}
+.boxy-menu-item-bottom
+{
+    display: none;
+}
